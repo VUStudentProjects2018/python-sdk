@@ -4,8 +4,8 @@ import urllib
 import time
 http_url='https://api-cn.faceplusplus.com/facepp/v3/detect'
 # https://api-cn.faceplusplus.com/facepp/v3/face/analyze we shall be using this one
-key = "m-PqJCQWPK1BNMYhDOwSuomjBtYeZaQl"
-secret = "t4E6FwWCZk87skh8OIMEQhwqtEpT4acC"
+key = "bEG0S1zJBMql4JqwYWZ5d1-2daTh16RJ"
+secret = "Cgl9bNBuCx4FO_9l-Pub0X5Nfsxs7ypA"
 filepath = r"./demo.jpeg"
 boundary = '----------%s' % hex(int(time.time() * 1000))
 data = []
